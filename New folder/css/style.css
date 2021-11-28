@@ -1,0 +1,713 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    
+}
+body{
+    font-family: montserrat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: darkblue;
+    color: #fff;
+}
+#logo{
+    top: 10px;
+    left: 0px;
+    width: 50px;
+    
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-ul a{
+    display: inline-block;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px 20px;
+}
+
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.hamburger:focus{
+    outline: none;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+h1{
+    position: absolute;
+    width: 610px;
+    height: 63px;
+    left: 500px;
+    top: 140px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 63px;
+    text-align: center;
+    color: #25274D;
+}
+p{
+    position: absolute;
+    width: 1170px;
+    height: 120px;
+    left: 250px;
+    top: 235px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #545454;
+}
+.features-img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 250px;
+    top: 390px;
+    
+}
+.feature-text{
+    position: absolute;
+    width: 1170px;
+    height: 120px;
+    left: 50px;
+    top:  850px;
+    
+}
+
+section#containerf{
+   position: absolute;
+   width: 1170px;
+   height: 600px;
+   left: 300px;
+   top: 1366px;
+
+background: #F4F4F6;
+
+}
+.container{
+    /* stand-full-size-transparent 1 */
+background-color: lightgrey;
+position: absolute;
+width: 295px;
+height: 640px;
+
+position: absolute;
+width: 500px;
+height: 300px;
+left: 100px;
+
+
+background: #F4F4F6;
+}
+div#first h2{
+position: absolute;
+width: 162px;
+height: 36px;
+left: 500px;
+top: 20px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #25274D;
+}
+
+div#first ul{
+position: absolute;
+width: 434px;
+height: 60px;
+left: 500px;
+top: 55px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #545454;
+}
+div#second h3{
+    /* Optional */
+
+position: absolute;
+width: 95px;
+height: 36px;
+left: 500px;
+top: 350px;
+/* H3 */
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+color: #25274D;
+
+
+}
+div#second ul{
+position: absolute;
+width: 180px;
+height: 30px;
+left: 500px;
+top: 385px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #545454;
+}
+section#box{
+    position: absolute;
+    top: 2100px;
+    position: absolute;
+    width: 1900px;
+    height: 370px;
+    left: 265px;
+}
+div#box-img{
+position: absolute;
+width: 560px;
+height: 397px;
+
+background-color: lightgrey;
+}
+
+div#box-img img{
+    background-color: lightgrey;
+}
+div#box-i{
+position:absolute;
+width: 600px;
+height: 397px;
+left: 585px;
+background: #F4F4F6;
+}
+
+section#costs{
+/* base */
+
+position: absolute;
+width: 1220px;
+height: 401px;
+left: 265px;
+top: 2555px;
+
+background: #F4F4F6;
+
+
+}
+section#costs h1{
+    /* base */
+
+position: absolute;
+height: 250px;
+left: 300px;
+top: 25px;
+}
+section#costs p{
+    /* One-off hardware 1.799 EUR (excl. VAT & transport costs) */
+
+position: absolute;
+width: 770px;
+height: 30px;
+left: 200px;
+top: 90px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #25274D;
+}
+h5{
+   /* How we handle your data */
+
+position: absolute;
+width: 277px;
+height: 36px;
+left: 722px;
+top: 3000px;
+
+/* H3 */
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #25274D;
+
+
+}
+
+#logoo p{
+
+position: absolute;
+width: 370px;
+height: 26px;
+left: 305px;
+top: 3165px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #545454;
+}
+#logo p{
+position: absolute;
+width: 370px;
+height: 27px;
+left: 975px;
+top: 3165px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #545454;
+}
+form{
+    position: absolute;
+    top:3380px;
+    left: 650px;
+    font-family: Fira Sans;
+    text-decoration-color: #25274D;
+}
+
+#header h4{
+position: absolute;
+top: 3290px;
+width: 370px;
+height: 63px;
+left: 650px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 63px;
+text-align: center;
+color: #25274D;
+}
+
+.btn{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 12px 24px;
+
+ position: absolute;
+ width: 206px;
+ height: 74px;
+ left: 855px;
+ top: 4079px;
+
+ background: #25274D;
+ border-radius: 50px;
+
+
+/* Check availability */
+
+ position: static;
+ width: 158px;
+ height: 60px;
+ left: 24px;
+ top: 10px;
+ font-family: Fira Sans;
+ font-style: normal;
+ font-size: 12px;
+ line-height: 30px;
+/* identical to box height, or 150% */
+
+ color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+#p{
+ top: 3750px;
+ position: absolute;
+ left: 50px;
+ width: 570px;
+ height: 42px;
+ font-family: Fira Sans;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 8px;
+ line-height: 21px;
+ color: #545454;
+
+
+}
+#call h6{
+    position: absolute;
+    top: 4100px;
+    left: 700px;
+    /* Or Call */
+
+width: 73px;
+height: 36px;
+
+/* H3 */
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #25274D;
+
+
+}
+#call p{
+    /* 0181-413112 */
+
+position: absolute;
+width: 212px;
+height: 64px;
+left: 650px;
+top: 4200px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 64px;
+/* identical to box height, or 152% */
+text-align: center;
+
+color: #2D9CCA;
+
+
+}
+#or .text{
+    top:4300px;
+    left: 400px;
+}
+#or p{
+    top: 4400px;
+    left: 250px;
+}
+#diz{
+    
+
+position: absolute;
+width: 81.73px;
+height: 36px;
+left: 620px;
+top: 4600px;
+
+}
+.footer{
+    position: absolute;
+    left: 0px;
+    background-color: #25274D;
+    top: 4700px;
+    width: 100%;
+    height: 400px;
+    
+}
+.footer h4{
+    /* Newsletter */
+
+position: absolute;
+width: 192px;
+height: 36px;
+left: 100px;
+top: 50px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.footer p{
+    top: 90px;
+    left: 100px;
+    /* Subscribe to our mailing list and stay up to date with the latest events and promotions. */
+
+position: absolute;
+width: 470px;
+height: 48px;
+
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #FFFFFF;
+
+
+}
+
+#label-f{
+    top: 160px;
+   position: absolute;
+    left: 100px;
+   width: 320px;
+height: 48px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 50px;
+
+}
+.footer .button{
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    /* Rectangle 20 */
+
+
+width: 130px;
+height: 48px;
+
+
+background: #D5580B;
+border-radius: 50px;
+    
+
+}
+.footer .button a{
+
+position: absolute;
+width: 90px;
+height: 30px;
+left: 20px;
+top: 10px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+}
+
+.footer .footer-col{
+    position: absolute;
+    top: 50px;
+    width: 25%;
+    padding: 0 15px;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer-col h5{
+   
+top: 10px;
+position: absolute;
+width: 63px;
+height: 24px;
+
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+}
+
+.footer-coll h5{
+    /* Legal */
+
+position: absolute;
+width: 39px;
+height: 24px;
+top: 50px;
+left: 900px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+
+}
+.footer-col ul li a{
+    position: absolute;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin: 10px;
+    left: 700px;
+    top: 70px;
+}
+
+.footer-coll ul li a{
+    top: 70px;
+    margin: 10px;
+    position: absolute;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    left: 900px;
+}
+.social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: darkgrey;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    left: 900px;
+    top: 300px;
+    position: absolute;
+}
+.f-p{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+   
+width: 453px;
+height: 21px;
+
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+
+}
+@media(max-width: 767px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+    .footer-coll{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+    .social{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .nav-ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-ul show{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+    .btn{
+        width: 100%;
+    }
+    .nav-ul li a{
+        padding: 10px;
+    }
+    header{
+        padding-bottom: 0;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .footer-coll{
+        width: 100%;
+    }
+    .social{
+        width: 100%:
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
